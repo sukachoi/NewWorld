@@ -1,0 +1,6 @@
+내컴에 있는 것 파이참에서 github에 올리는 방법
+
+NewWorld ===> 왼쪽 마우스 클릭
+==> git ===> commit directory
+===> 가운데 Amend 에sh 변경사항 기록
+===> 아래쪽 commit and push ===> push
