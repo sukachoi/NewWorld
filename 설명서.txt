@@ -4,3 +4,16 @@ NewWorld ===> 왼쪽 마우스 클릭
 ==> git ===> commit directory
 ===> 가운데 Amend 에sh 변경사항 기록
 ===> 아래쪽 commit and push ===> push
+
+git Bash here 에서
+
+USER@DESKTOP-D3OT7N0 MINGW64 ~/Desktop
+$ git clone https://github.com/sukachoi/NewWorld.git
+Cloning into 'NewWorld'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+USER@DESKTOP-D3OT7N0 MINGW64 ~/Desktop
+$
