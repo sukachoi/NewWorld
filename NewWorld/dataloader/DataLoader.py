@@ -7,7 +7,8 @@ class DataLoader:
     def __init__(self):
         self.binance = ccxt.binance()
         self.market = 'BTC/USDT'
-        self.periods = '5m'
+        self.periods = '1m'
+
 
     def get_origin_data(self):
         # 현재는 exchange가 바낸만 구현
@@ -20,6 +21,7 @@ class DataLoader:
         df.reset_index(inplace=True)
         self.df = df
         return self.df
+
 
 
 if __name__ == '__main__':

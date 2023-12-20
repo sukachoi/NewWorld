@@ -1,5 +1,5 @@
 import plotly.graph_objects as go
-from NewWorld.dataloader.dataloader import DataLoader
+from dataloader.DataLoader import DataLoader
 
 class ChartDrawer:
     def __init__(self, data_loader):
@@ -8,15 +8,13 @@ class ChartDrawer:
     def plot_candlestick_chart(self):
         df = self.data_loader.get_origin_data()
 
-        fig = go.Figure(data=[go.Candlestick(x=df.index,
+        fig = go.Figure(data=[go.Candlestick(x=df['datetime'],
                                              open=df['open'],
                                              high=df['high'],
                                              low=df['low'],
                                              close=df['close'])])
 
-        fig.update_layout(title='Candlestick Chart for BTC/USDT',
-                          xaxis_title='Date',
-                          yaxis_title='Price')
+        fig.update_layout(title='Candlestick Chart for BTC/USDT',xaxis_title='Date',yaxis_title='Price')
 
         fig.show()
 
