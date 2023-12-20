@@ -2,7 +2,7 @@
 
 NewWorld ===> 왼쪽 마우스 클릭
 ==> git ===> commit directory
-===> 가운데 Amend 에sh 변경사항 기록
+===> 왼쪽 화면 가운데에 있는 Amend sh 옆에 변경사항 기록
 ===> 아래쪽 commit and push ===> push
 
 git Bash here 에서
