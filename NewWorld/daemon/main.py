@@ -3,8 +3,11 @@ import datetime
 from NewWorld.dataloader.DataLoader import DataLoader
 from NewWorld.chartdrawer.ChartDrawer import ChartDrawer
 import time
+from NewWorld.version import version
+print("NewWord program version is " + str(version))
 
 if __name__ == '__main__':
+
     data = input("원하는 코인 또는 주식을 입력해 주세요..ex: 'BTC/USDT', 'ETH/USDT', 'AAPL', '005930.KS'")
     print("")
     #coin = ['BTC/USDT', 'ETH/USDT']
